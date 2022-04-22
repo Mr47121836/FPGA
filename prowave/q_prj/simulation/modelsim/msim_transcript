@@ -1,0 +1,62 @@
+# Reading D:/altera/13.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do dds_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/work/exp11/trl {C:/Users/lenovo/Desktop/work/exp11/trl/dds.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module dds
+# 
+# Top level modules:
+# 	dds
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/work/exp11/q_prj/ip_core/rom_wave {C:/Users/lenovo/Desktop/work/exp11/q_prj/ip_core/rom_wave/rom_wave.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rom_wave
+# 
+# Top level modules:
+# 	rom_wave
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/work/exp11/q_prj/../sim {C:/Users/lenovo/Desktop/work/exp11/q_prj/../sim/tb_dds.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module tb_dds
+# 
+# Top level modules:
+# 	tb_dds
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/work/exp11/q_prj/../trl {C:/Users/lenovo/Desktop/work/exp11/q_prj/../trl/tb_f_word_set.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module tb_f_word_set
+# 
+# Top level modules:
+# 	tb_f_word_set
+# vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/work/exp11/q_prj/../sim {C:/Users/lenovo/Desktop/work/exp11/q_prj/../sim/tb_key_ctl.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module tb_key_control
+# 
+# Top level modules:
+# 	tb_key_control
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_dds
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb_dds 
+# Loading work.tb_dds
+# Loading work.dds
+# Loading work.rom_wave
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# WARNING: No extended dataflow license exists
+# Break key hit 
+# Break in Module tb_dds at C:/Users/lenovo/Desktop/work/exp11/q_prj/../sim/tb_dds.v line 57

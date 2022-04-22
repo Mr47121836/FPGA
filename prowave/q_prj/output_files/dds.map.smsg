@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at f_word_set.v(30): always construct contains both blocking and non-blocking assignments

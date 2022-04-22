@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Sep 26 22:51:37 2021
+Quartus II 64-Bit Version : 13.0.0 Build 156 04/24/2013 SJ Full Version
+Revision Name : dds
+Top-level Entity Name : view
+Family : Cyclone IV E
+Total logic elements : 4,846
+    Total combinational functions : 4,819
+    Dedicated logic registers : 232
+Total registers : 232
+Total pins : 33
+Total virtual pins : 0
+Total memory bits : 131,072
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

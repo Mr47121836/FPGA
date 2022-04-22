@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\lenovo\Desktop\work\exp11\q_prj\simulation\modelsim
+vdds
+If4?@RUUhg@Yd^K:nj9K^N2
+VeGNMF5K>G2D0?oak<^8Co3
+Z1 dC:\Users\lenovo\Desktop\work\exp11\q_prj\simulation\modelsim
+w1626928297
+8dds.vo
+Fdds.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 j^0@2BMTFFSa6I4c=1U5_1
+!s85 0
+!s108 1626928386.577000
+!s107 dds.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|dds.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vtb_dds
+I;U8BNJVdPaQOF>KYCJS5Z2
+Vm:5V8MbCJgNUSeN2]I?ab3
+R1
+w1626865508
+8C:/Users/lenovo/Desktop/work/exp11/q_prj/../sim/tb_dds.v
+FC:/Users/lenovo/Desktop/work/exp11/q_prj/../sim/tb_dds.v
+L0 20
+R2
+r1
+31
+R3
+!i10b 1
+!s100 ZWEK[W9W:C_QS_^:Le=583
+!s85 0
+!s108 1626928387.326000
+!s107 C:/Users/lenovo/Desktop/work/exp11/q_prj/../sim/tb_dds.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lenovo/Desktop/work/exp11/q_prj/../sim|C:/Users/lenovo/Desktop/work/exp11/q_prj/../sim/tb_dds.v|
+!s101 -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/work/exp11/q_prj/../sim -O0
+vtb_f_word_set
+I;BZ;SOH9BmQ2UEcRQbKzG3
+V1Lc6IYJCeSo1BUK7BR;X23
+R1
+w1626884062
+8C:/Users/lenovo/Desktop/work/exp11/q_prj/../trl/tb_f_word_set.v
+FC:/Users/lenovo/Desktop/work/exp11/q_prj/../trl/tb_f_word_set.v
+L0 3
+R2
+r1
+31
+R3
+!i10b 1
+!s100 jBLMIFMf;6L8;cRCnieR[2
+!s85 0
+!s108 1626928387.030000
+!s107 C:/Users/lenovo/Desktop/work/exp11/q_prj/../trl/tb_f_word_set.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lenovo/Desktop/work/exp11/q_prj/../trl|C:/Users/lenovo/Desktop/work/exp11/q_prj/../trl/tb_f_word_set.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/work/exp11/q_prj/../trl -O0
+vtb_key_control
+!i10b 1
+!s100 J]HSXHXUkWAU_91V?X19o0
+I:49Z5Cnh=5mP=c2c^fiVO2
+V>S_QPFBbNJENR0T0[YFfd2
+R1
+w1605690328
+8C:/Users/lenovo/Desktop/work/exp11/q_prj/../sim/tb_key_ctl.v
+FC:/Users/lenovo/Desktop/work/exp11/q_prj/../sim/tb_key_ctl.v
+L0 20
+R2
+r1
+!s85 0
+31
+!s108 1626928387.573000
+!s107 C:/Users/lenovo/Desktop/work/exp11/q_prj/../sim/tb_key_ctl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lenovo/Desktop/work/exp11/q_prj/../sim|C:/Users/lenovo/Desktop/work/exp11/q_prj/../sim/tb_key_ctl.v|
+!s101 -O0
+R3
+R4

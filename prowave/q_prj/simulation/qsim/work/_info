@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\lenovo\Desktop\work\exp11\q_prj\simulation\qsim
+vview
+Z1 I<=mFi<]5@<T@B?F^2I`bz0
+Z2 VN;Fi99LN8YZ[^^Qe>BE_b1
+Z3 dC:\Users\lenovo\Desktop\work\exp11\q_prj\simulation\qsim
+Z4 w1626883673
+Z5 8dds.vo
+Z6 Fdds.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|dds.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 =:K>dW0>9bUMmH<1klHY_1
+!s85 0
+Z11 !s108 1626883677.360000
+Z12 !s107 dds.vo|
+!s101 -O0
+vview_vlg_check_tst
+!i10b 1
+Z13 !s100 Xc?FGKA3EHFcoY2QX>9mc1
+Z14 IeemCI3caAZW<z_`X1U@;70
+Z15 V0IT^HU@G4mFlM0M`M>Ndn2
+R3
+Z16 w1626883672
+Z17 8dds.vt
+Z18 Fdds.vt
+L0 65
+R7
+r1
+!s85 0
+31
+Z19 !s108 1626883677.595000
+Z20 !s107 dds.vt|
+Z21 !s90 -work|work|dds.vt|
+!s101 -O0
+R9
+vview_vlg_sample_tst
+!i10b 1
+Z22 !s100 :LXN]YK_XObzJ<;WE?;``2
+Z23 Im4;3G7oQQXeMS:XBTB4EP3
+Z24 V6^E4mfMWW0:mz<OhziaDg2
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+vview_vlg_vec_tst
+!i10b 1
+!s100 [MW9ej3ILKOCl6iXO]2Q`2
+Ik1cJ>FHBQM:^a^m9ndZQa1
+Z25 VP8aemba55XGJ:>:jBAQYZ3
+R3
+R16
+R17
+R18
+Z26 L0 285
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9

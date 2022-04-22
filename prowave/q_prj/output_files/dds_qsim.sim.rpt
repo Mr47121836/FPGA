@@ -1,0 +1,625 @@
+Simulator report for dds_qsim
+Wed Jul 21 00:01:10 2021
+Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ALTSYNCRAM
+  6. Coverage Summary
+  7. Complete 1/0-Value Coverage
+  8. Missing 1-Value Coverage
+  9. Missing 0-Value Coverage
+ 10. Simulator INI Usage
+ 11. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 298 nodes    ;
+; Simulation Coverage         ;      35.23 % ;
+; Total Number of Transitions ; 4309         ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone III  ;
++-----------------------------+--------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                                                               ;
++--------------------------------------------------------------------------------------------+-----------------------------------------------------+---------------+
+; Option                                                                                     ; Setting                                             ; Default Value ;
++--------------------------------------------------------------------------------------------+-----------------------------------------------------+---------------+
+; Simulation mode                                                                            ; Functional                                          ; Timing        ;
+; Start time                                                                                 ; 0 ns                                                ; 0 ns          ;
+; Simulation results format                                                                  ; VWF                                                 ;               ;
+; Vector input source                                                                        ; C:/Users/lenovo/Desktop/work/exp11/sim/Waveform.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On                                                  ; On            ;
+; Check outputs                                                                              ; Off                                                 ; Off           ;
+; Report simulation coverage                                                                 ; On                                                  ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On                                                  ; On            ;
+; Display missing 1-value coverage report                                                    ; On                                                  ; On            ;
+; Display missing 0-value coverage report                                                    ; On                                                  ; On            ;
+; Detect setup and hold time violations                                                      ; Off                                                 ; Off           ;
+; Detect glitches                                                                            ; Off                                                 ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off                                                 ; Off           ;
+; Generate Signal Activity File                                                              ; Off                                                 ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off                                                 ; Off           ;
+; Group bus channels in simulation results                                                   ; Off                                                 ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On                                                  ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE                                          ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off                                                 ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off                                                 ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto                                                ; Auto          ;
+; Interconnect Delay Model Type                                                              ; Transport                                           ; Transport     ;
+; Cell Delay Model Type                                                                      ; Transport                                           ; Transport     ;
++--------------------------------------------------------------------------------------------+-----------------------------------------------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II 64-Bit to view the waveform report data.
+
+
++-------------------------------------------------------------------------------------------------------+
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ALTSYNCRAM ;
++-------------------------------------------------------------------------------------------------------+
+Please refer to fitter text-based report (*.fit.rpt) to view logical memory report content in ASCII.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      35.23 % ;
+; Total nodes checked                                 ; 298          ;
+; Total output ports checked                          ; 298          ;
+; Total output ports with complete 1/0-value coverage ; 105          ;
+; Total output ports with no 1/0-value coverage       ; 156          ;
+; Total output ports with no 1-value coverage         ; 156          ;
+; Total output ports with no 0-value coverage         ; 193          ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++----------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                    ;
++----------------------+----------------------+------------------+
+; Node Name            ; Output Port Name     ; Output Port Type ;
++----------------------+----------------------+------------------+
+; |dds|fre_add[20]     ; |dds|fre_add[20]     ; regout           ;
+; |dds|fre_add[19]     ; |dds|fre_add[19]     ; regout           ;
+; |dds|fre_add[18]     ; |dds|fre_add[18]     ; regout           ;
+; |dds|fre_add[17]     ; |dds|fre_add[17]     ; regout           ;
+; |dds|fre_add[16]     ; |dds|fre_add[16]     ; regout           ;
+; |dds|fre_add[15]     ; |dds|fre_add[15]     ; regout           ;
+; |dds|fre_add[14]     ; |dds|fre_add[14]     ; regout           ;
+; |dds|fre_add[13]     ; |dds|fre_add[13]     ; regout           ;
+; |dds|fre_add[12]     ; |dds|fre_add[12]     ; regout           ;
+; |dds|fre_add[11]     ; |dds|fre_add[11]     ; regout           ;
+; |dds|fre_add[10]     ; |dds|fre_add[10]     ; regout           ;
+; |dds|fre_add[9]      ; |dds|fre_add[9]      ; regout           ;
+; |dds|fre_add[8]      ; |dds|fre_add[8]      ; regout           ;
+; |dds|fre_add[7]      ; |dds|fre_add[7]      ; regout           ;
+; |dds|fre_add[6]      ; |dds|fre_add[6]      ; regout           ;
+; |dds|fre_add[5]      ; |dds|fre_add[5]      ; regout           ;
+; |dds|fre_add[4]      ; |dds|fre_add[4]      ; regout           ;
+; |dds|fre_add[3]      ; |dds|fre_add[3]      ; regout           ;
+; |dds|fre_add[2]      ; |dds|fre_add[2]      ; regout           ;
+; |dds|fre_add[1]      ; |dds|fre_add[1]      ; regout           ;
+; |dds|rom_addr_reg[0] ; |dds|rom_addr_reg[0] ; regout           ;
+; |dds|fre_add[0]      ; |dds|fre_add[0]      ; regout           ;
+; |dds|sys_clk         ; |dds|sys_clk         ; out              ;
+; |dds|Add0~0          ; |dds|Add0~0          ; out0             ;
+; |dds|Add0~1          ; |dds|Add0~1          ; out0             ;
+; |dds|Add0~2          ; |dds|Add0~2          ; out0             ;
+; |dds|Add0~3          ; |dds|Add0~3          ; out0             ;
+; |dds|Add0~4          ; |dds|Add0~4          ; out0             ;
+; |dds|Add0~7          ; |dds|Add0~7          ; out0             ;
+; |dds|Add0~8          ; |dds|Add0~8          ; out0             ;
+; |dds|Add0~9          ; |dds|Add0~9          ; out0             ;
+; |dds|Add0~10         ; |dds|Add0~10         ; out0             ;
+; |dds|Add0~11         ; |dds|Add0~11         ; out0             ;
+; |dds|Add0~12         ; |dds|Add0~12         ; out0             ;
+; |dds|Add0~13         ; |dds|Add0~13         ; out0             ;
+; |dds|Add0~14         ; |dds|Add0~14         ; out0             ;
+; |dds|Add0~17         ; |dds|Add0~17         ; out0             ;
+; |dds|Add0~18         ; |dds|Add0~18         ; out0             ;
+; |dds|Add0~19         ; |dds|Add0~19         ; out0             ;
+; |dds|Add0~22         ; |dds|Add0~22         ; out0             ;
+; |dds|Add0~23         ; |dds|Add0~23         ; out0             ;
+; |dds|Add0~24         ; |dds|Add0~24         ; out0             ;
+; |dds|Add0~27         ; |dds|Add0~27         ; out0             ;
+; |dds|Add0~28         ; |dds|Add0~28         ; out0             ;
+; |dds|Add0~29         ; |dds|Add0~29         ; out0             ;
+; |dds|Add0~30         ; |dds|Add0~30         ; out0             ;
+; |dds|Add0~31         ; |dds|Add0~31         ; out0             ;
+; |dds|Add0~32         ; |dds|Add0~32         ; out0             ;
+; |dds|Add0~33         ; |dds|Add0~33         ; out0             ;
+; |dds|Add0~34         ; |dds|Add0~34         ; out0             ;
+; |dds|Add0~35         ; |dds|Add0~35         ; out0             ;
+; |dds|Add0~36         ; |dds|Add0~36         ; out0             ;
+; |dds|Add0~37         ; |dds|Add0~37         ; out0             ;
+; |dds|Add0~38         ; |dds|Add0~38         ; out0             ;
+; |dds|Add0~39         ; |dds|Add0~39         ; out0             ;
+; |dds|Add0~40         ; |dds|Add0~40         ; out0             ;
+; |dds|Add0~41         ; |dds|Add0~41         ; out0             ;
+; |dds|Add0~42         ; |dds|Add0~42         ; out0             ;
+; |dds|Add0~43         ; |dds|Add0~43         ; out0             ;
+; |dds|Add0~44         ; |dds|Add0~44         ; out0             ;
+; |dds|Add0~45         ; |dds|Add0~45         ; out0             ;
+; |dds|Add0~46         ; |dds|Add0~46         ; out0             ;
+; |dds|Add0~47         ; |dds|Add0~47         ; out0             ;
+; |dds|Add0~48         ; |dds|Add0~48         ; out0             ;
+; |dds|Add0~49         ; |dds|Add0~49         ; out0             ;
+; |dds|Add0~50         ; |dds|Add0~50         ; out0             ;
+; |dds|Add0~51         ; |dds|Add0~51         ; out0             ;
+; |dds|Add0~52         ; |dds|Add0~52         ; out0             ;
+; |dds|Add0~53         ; |dds|Add0~53         ; out0             ;
+; |dds|Add0~54         ; |dds|Add0~54         ; out0             ;
+; |dds|Add0~57         ; |dds|Add0~57         ; out0             ;
+; |dds|Add0~58         ; |dds|Add0~58         ; out0             ;
+; |dds|Add0~59         ; |dds|Add0~59         ; out0             ;
+; |dds|Add0~62         ; |dds|Add0~62         ; out0             ;
+; |dds|Add0~63         ; |dds|Add0~63         ; out0             ;
+; |dds|Add0~64         ; |dds|Add0~64         ; out0             ;
+; |dds|Add0~65         ; |dds|Add0~65         ; out0             ;
+; |dds|Add0~66         ; |dds|Add0~66         ; out0             ;
+; |dds|Add0~67         ; |dds|Add0~67         ; out0             ;
+; |dds|Add0~68         ; |dds|Add0~68         ; out0             ;
+; |dds|Add0~69         ; |dds|Add0~69         ; out0             ;
+; |dds|Add0~72         ; |dds|Add0~72         ; out0             ;
+; |dds|Add0~73         ; |dds|Add0~73         ; out0             ;
+; |dds|Add0~74         ; |dds|Add0~74         ; out0             ;
+; |dds|Add0~75         ; |dds|Add0~75         ; out0             ;
+; |dds|Add0~76         ; |dds|Add0~76         ; out0             ;
+; |dds|Add0~77         ; |dds|Add0~77         ; out0             ;
+; |dds|Add0~78         ; |dds|Add0~78         ; out0             ;
+; |dds|Add0~79         ; |dds|Add0~79         ; out0             ;
+; |dds|Add0~82         ; |dds|Add0~82         ; out0             ;
+; |dds|Add0~83         ; |dds|Add0~83         ; out0             ;
+; |dds|Add0~84         ; |dds|Add0~84         ; out0             ;
+; |dds|Add0~87         ; |dds|Add0~87         ; out0             ;
+; |dds|Add0~88         ; |dds|Add0~88         ; out0             ;
+; |dds|Add0~89         ; |dds|Add0~89         ; out0             ;
+; |dds|Add0~92         ; |dds|Add0~92         ; out0             ;
+; |dds|Add0~93         ; |dds|Add0~93         ; out0             ;
+; |dds|Add0~94         ; |dds|Add0~94         ; out0             ;
+; |dds|Add0~97         ; |dds|Add0~97         ; out0             ;
+; |dds|Add0~98         ; |dds|Add0~98         ; out0             ;
+; |dds|Add0~99         ; |dds|Add0~99         ; out0             ;
+; |dds|Add0~102        ; |dds|Add0~102        ; out0             ;
+; |dds|Add0~103        ; |dds|Add0~103        ; out0             ;
+; |dds|Add0~104        ; |dds|Add0~104        ; out0             ;
+; |dds|Add0~107        ; |dds|Add0~107        ; out0             ;
++----------------------+----------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                                                                                                                                                                                 ;
++---------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                                                 ; Output Port Name                                                                                                          ; Output Port Type ;
++---------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+------------------+
+; |dds|fre_add[31]                                                                                                          ; |dds|fre_add[31]                                                                                                          ; regout           ;
+; |dds|fre_add[30]                                                                                                          ; |dds|fre_add[30]                                                                                                          ; regout           ;
+; |dds|fre_add[29]                                                                                                          ; |dds|fre_add[29]                                                                                                          ; regout           ;
+; |dds|fre_add[28]                                                                                                          ; |dds|fre_add[28]                                                                                                          ; regout           ;
+; |dds|fre_add[27]                                                                                                          ; |dds|fre_add[27]                                                                                                          ; regout           ;
+; |dds|fre_add[26]                                                                                                          ; |dds|fre_add[26]                                                                                                          ; regout           ;
+; |dds|fre_add[25]                                                                                                          ; |dds|fre_add[25]                                                                                                          ; regout           ;
+; |dds|fre_add[24]                                                                                                          ; |dds|fre_add[24]                                                                                                          ; regout           ;
+; |dds|fre_add[23]                                                                                                          ; |dds|fre_add[23]                                                                                                          ; regout           ;
+; |dds|fre_add[22]                                                                                                          ; |dds|fre_add[22]                                                                                                          ; regout           ;
+; |dds|rom_addr[13]                                                                                                         ; |dds|rom_addr[13]                                                                                                         ; regout           ;
+; |dds|rom_addr[12]                                                                                                         ; |dds|rom_addr[12]                                                                                                         ; regout           ;
+; |dds|rom_addr[11]                                                                                                         ; |dds|rom_addr[11]                                                                                                         ; regout           ;
+; |dds|rom_addr[9]                                                                                                          ; |dds|rom_addr[9]                                                                                                          ; regout           ;
+; |dds|rom_addr[8]                                                                                                          ; |dds|rom_addr[8]                                                                                                          ; regout           ;
+; |dds|rom_addr[7]                                                                                                          ; |dds|rom_addr[7]                                                                                                          ; regout           ;
+; |dds|rom_addr[6]                                                                                                          ; |dds|rom_addr[6]                                                                                                          ; regout           ;
+; |dds|rom_addr[5]                                                                                                          ; |dds|rom_addr[5]                                                                                                          ; regout           ;
+; |dds|rom_addr[4]                                                                                                          ; |dds|rom_addr[4]                                                                                                          ; regout           ;
+; |dds|rom_addr[3]                                                                                                          ; |dds|rom_addr[3]                                                                                                          ; regout           ;
+; |dds|rom_addr[2]                                                                                                          ; |dds|rom_addr[2]                                                                                                          ; regout           ;
+; |dds|rom_addr[1]                                                                                                          ; |dds|rom_addr[1]                                                                                                          ; regout           ;
+; |dds|rom_addr_reg[11]                                                                                                     ; |dds|rom_addr_reg[11]                                                                                                     ; regout           ;
+; |dds|rom_addr_reg[9]                                                                                                      ; |dds|rom_addr_reg[9]                                                                                                      ; regout           ;
+; |dds|rom_addr_reg[8]                                                                                                      ; |dds|rom_addr_reg[8]                                                                                                      ; regout           ;
+; |dds|rom_addr_reg[7]                                                                                                      ; |dds|rom_addr_reg[7]                                                                                                      ; regout           ;
+; |dds|rom_addr_reg[6]                                                                                                      ; |dds|rom_addr_reg[6]                                                                                                      ; regout           ;
+; |dds|rom_addr_reg[5]                                                                                                      ; |dds|rom_addr_reg[5]                                                                                                      ; regout           ;
+; |dds|rom_addr_reg[4]                                                                                                      ; |dds|rom_addr_reg[4]                                                                                                      ; regout           ;
+; |dds|rom_addr_reg[3]                                                                                                      ; |dds|rom_addr_reg[3]                                                                                                      ; regout           ;
+; |dds|rom_addr_reg[2]                                                                                                      ; |dds|rom_addr_reg[2]                                                                                                      ; regout           ;
+; |dds|sys_rst_n                                                                                                            ; |dds|sys_rst_n                                                                                                            ; out              ;
+; |dds|wave_select[0]                                                                                                       ; |dds|wave_select[0]                                                                                                       ; out              ;
+; |dds|wave_select[1]                                                                                                       ; |dds|wave_select[1]                                                                                                       ; out              ;
+; |dds|FREQ_CTRL[0]                                                                                                         ; |dds|FREQ_CTRL[0]                                                                                                         ; out              ;
+; |dds|FREQ_CTRL[1]                                                                                                         ; |dds|FREQ_CTRL[1]                                                                                                         ; out              ;
+; |dds|FREQ_CTRL[2]                                                                                                         ; |dds|FREQ_CTRL[2]                                                                                                         ; out              ;
+; |dds|FREQ_CTRL[3]                                                                                                         ; |dds|FREQ_CTRL[3]                                                                                                         ; out              ;
+; |dds|FREQ_CTRL[4]                                                                                                         ; |dds|FREQ_CTRL[4]                                                                                                         ; out              ;
+; |dds|FREQ_CTRL[5]                                                                                                         ; |dds|FREQ_CTRL[5]                                                                                                         ; out              ;
+; |dds|FREQ_CTRL[6]                                                                                                         ; |dds|FREQ_CTRL[6]                                                                                                         ; out              ;
+; |dds|FREQ_CTRL[7]                                                                                                         ; |dds|FREQ_CTRL[7]                                                                                                         ; out              ;
+; |dds|FREQ_CTRL[8]                                                                                                         ; |dds|FREQ_CTRL[8]                                                                                                         ; out              ;
+; |dds|FREQ_CTRL[9]                                                                                                         ; |dds|FREQ_CTRL[9]                                                                                                         ; out              ;
+; |dds|FREQ_CTRL[10]                                                                                                        ; |dds|FREQ_CTRL[10]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[11]                                                                                                        ; |dds|FREQ_CTRL[11]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[12]                                                                                                        ; |dds|FREQ_CTRL[12]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[13]                                                                                                        ; |dds|FREQ_CTRL[13]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[14]                                                                                                        ; |dds|FREQ_CTRL[14]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[15]                                                                                                        ; |dds|FREQ_CTRL[15]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[16]                                                                                                        ; |dds|FREQ_CTRL[16]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[17]                                                                                                        ; |dds|FREQ_CTRL[17]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[18]                                                                                                        ; |dds|FREQ_CTRL[18]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[19]                                                                                                        ; |dds|FREQ_CTRL[19]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[20]                                                                                                        ; |dds|FREQ_CTRL[20]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[21]                                                                                                        ; |dds|FREQ_CTRL[21]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[22]                                                                                                        ; |dds|FREQ_CTRL[22]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[23]                                                                                                        ; |dds|FREQ_CTRL[23]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[24]                                                                                                        ; |dds|FREQ_CTRL[24]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[25]                                                                                                        ; |dds|FREQ_CTRL[25]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[26]                                                                                                        ; |dds|FREQ_CTRL[26]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[27]                                                                                                        ; |dds|FREQ_CTRL[27]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[28]                                                                                                        ; |dds|FREQ_CTRL[28]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[29]                                                                                                        ; |dds|FREQ_CTRL[29]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[30]                                                                                                        ; |dds|FREQ_CTRL[30]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[31]                                                                                                        ; |dds|FREQ_CTRL[31]                                                                                                        ; out              ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a8                   ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a8                   ; portadataout0    ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a9                   ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a9                   ; portadataout0    ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a10                  ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a10                  ; portadataout0    ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a11                  ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a11                  ; portadataout0    ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a12                  ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a12                  ; portadataout0    ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a13                  ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a13                  ; portadataout0    ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a14                  ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a14                  ; portadataout0    ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a15                  ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a15                  ; portadataout0    ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|address_reg_a[0]               ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|address_reg_a[0]               ; regout           ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|out_address_reg_a[0]           ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|out_address_reg_a[0]           ; regout           ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[7]~0  ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[7]~0  ; out0             ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[6]~2  ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[6]~2  ; out0             ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[5]~4  ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[5]~4  ; out0             ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[4]~6  ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[4]~6  ; out0             ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[3]~8  ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[3]~8  ; out0             ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[2]~10 ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[2]~10 ; out0             ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[1]~12 ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[1]~12 ; out0             ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[0]~14 ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[0]~14 ; out0             ;
+; |dds|Add0~5                                                                                                               ; |dds|Add0~5                                                                                                               ; out0             ;
+; |dds|Add0~6                                                                                                               ; |dds|Add0~6                                                                                                               ; out0             ;
+; |dds|Add0~15                                                                                                              ; |dds|Add0~15                                                                                                              ; out0             ;
+; |dds|Add0~16                                                                                                              ; |dds|Add0~16                                                                                                              ; out0             ;
+; |dds|Add0~20                                                                                                              ; |dds|Add0~20                                                                                                              ; out0             ;
+; |dds|Add0~21                                                                                                              ; |dds|Add0~21                                                                                                              ; out0             ;
+; |dds|Add0~25                                                                                                              ; |dds|Add0~25                                                                                                              ; out0             ;
+; |dds|Add0~26                                                                                                              ; |dds|Add0~26                                                                                                              ; out0             ;
+; |dds|Add0~55                                                                                                              ; |dds|Add0~55                                                                                                              ; out0             ;
+; |dds|Add0~56                                                                                                              ; |dds|Add0~56                                                                                                              ; out0             ;
+; |dds|Add0~60                                                                                                              ; |dds|Add0~60                                                                                                              ; out0             ;
+; |dds|Add0~61                                                                                                              ; |dds|Add0~61                                                                                                              ; out0             ;
+; |dds|Add0~70                                                                                                              ; |dds|Add0~70                                                                                                              ; out0             ;
+; |dds|Add0~71                                                                                                              ; |dds|Add0~71                                                                                                              ; out0             ;
+; |dds|Add0~80                                                                                                              ; |dds|Add0~80                                                                                                              ; out0             ;
+; |dds|Add0~81                                                                                                              ; |dds|Add0~81                                                                                                              ; out0             ;
+; |dds|Add0~85                                                                                                              ; |dds|Add0~85                                                                                                              ; out0             ;
+; |dds|Add0~86                                                                                                              ; |dds|Add0~86                                                                                                              ; out0             ;
+; |dds|Add0~90                                                                                                              ; |dds|Add0~90                                                                                                              ; out0             ;
+; |dds|Add0~91                                                                                                              ; |dds|Add0~91                                                                                                              ; out0             ;
+; |dds|Add0~95                                                                                                              ; |dds|Add0~95                                                                                                              ; out0             ;
+; |dds|Add0~96                                                                                                              ; |dds|Add0~96                                                                                                              ; out0             ;
+; |dds|Add0~100                                                                                                             ; |dds|Add0~100                                                                                                             ; out0             ;
+; |dds|Add0~101                                                                                                             ; |dds|Add0~101                                                                                                             ; out0             ;
+; |dds|Add0~105                                                                                                             ; |dds|Add0~105                                                                                                             ; out0             ;
+; |dds|Add0~106                                                                                                             ; |dds|Add0~106                                                                                                             ; out0             ;
+; |dds|Add0~108                                                                                                             ; |dds|Add0~108                                                                                                             ; out0             ;
+; |dds|Add0~109                                                                                                             ; |dds|Add0~109                                                                                                             ; out0             ;
+; |dds|Add0~110                                                                                                             ; |dds|Add0~110                                                                                                             ; out0             ;
+; |dds|Add0~111                                                                                                             ; |dds|Add0~111                                                                                                             ; out0             ;
+; |dds|Add0~112                                                                                                             ; |dds|Add0~112                                                                                                             ; out0             ;
+; |dds|Add0~113                                                                                                             ; |dds|Add0~113                                                                                                             ; out0             ;
+; |dds|Add0~114                                                                                                             ; |dds|Add0~114                                                                                                             ; out0             ;
+; |dds|Add0~115                                                                                                             ; |dds|Add0~115                                                                                                             ; out0             ;
+; |dds|Add0~116                                                                                                             ; |dds|Add0~116                                                                                                             ; out0             ;
+; |dds|Add0~117                                                                                                             ; |dds|Add0~117                                                                                                             ; out0             ;
+; |dds|Add0~118                                                                                                             ; |dds|Add0~118                                                                                                             ; out0             ;
+; |dds|Add0~119                                                                                                             ; |dds|Add0~119                                                                                                             ; out0             ;
+; |dds|Add0~120                                                                                                             ; |dds|Add0~120                                                                                                             ; out0             ;
+; |dds|Add0~121                                                                                                             ; |dds|Add0~121                                                                                                             ; out0             ;
+; |dds|Add0~122                                                                                                             ; |dds|Add0~122                                                                                                             ; out0             ;
+; |dds|Add0~123                                                                                                             ; |dds|Add0~123                                                                                                             ; out0             ;
+; |dds|Add0~124                                                                                                             ; |dds|Add0~124                                                                                                             ; out0             ;
+; |dds|Add0~125                                                                                                             ; |dds|Add0~125                                                                                                             ; out0             ;
+; |dds|Add0~126                                                                                                             ; |dds|Add0~126                                                                                                             ; out0             ;
+; |dds|Add0~127                                                                                                             ; |dds|Add0~127                                                                                                             ; out0             ;
+; |dds|Add0~128                                                                                                             ; |dds|Add0~128                                                                                                             ; out0             ;
+; |dds|Add0~129                                                                                                             ; |dds|Add0~129                                                                                                             ; out0             ;
+; |dds|Add0~130                                                                                                             ; |dds|Add0~130                                                                                                             ; out0             ;
+; |dds|Add0~131                                                                                                             ; |dds|Add0~131                                                                                                             ; out0             ;
+; |dds|Add0~132                                                                                                             ; |dds|Add0~132                                                                                                             ; out0             ;
+; |dds|Add0~133                                                                                                             ; |dds|Add0~133                                                                                                             ; out0             ;
+; |dds|Add0~134                                                                                                             ; |dds|Add0~134                                                                                                             ; out0             ;
+; |dds|Add0~135                                                                                                             ; |dds|Add0~135                                                                                                             ; out0             ;
+; |dds|Add0~136                                                                                                             ; |dds|Add0~136                                                                                                             ; out0             ;
+; |dds|Add0~137                                                                                                             ; |dds|Add0~137                                                                                                             ; out0             ;
+; |dds|Add0~138                                                                                                             ; |dds|Add0~138                                                                                                             ; out0             ;
+; |dds|Add0~139                                                                                                             ; |dds|Add0~139                                                                                                             ; out0             ;
+; |dds|Add0~140                                                                                                             ; |dds|Add0~140                                                                                                             ; out0             ;
+; |dds|Add0~141                                                                                                             ; |dds|Add0~141                                                                                                             ; out0             ;
+; |dds|Add0~142                                                                                                             ; |dds|Add0~142                                                                                                             ; out0             ;
+; |dds|Add0~143                                                                                                             ; |dds|Add0~143                                                                                                             ; out0             ;
+; |dds|Add0~144                                                                                                             ; |dds|Add0~144                                                                                                             ; out0             ;
+; |dds|Add0~145                                                                                                             ; |dds|Add0~145                                                                                                             ; out0             ;
+; |dds|Add0~146                                                                                                             ; |dds|Add0~146                                                                                                             ; out0             ;
+; |dds|Add0~147                                                                                                             ; |dds|Add0~147                                                                                                             ; out0             ;
+; |dds|Add0~148                                                                                                             ; |dds|Add0~148                                                                                                             ; out0             ;
+; |dds|Add0~149                                                                                                             ; |dds|Add0~149                                                                                                             ; out0             ;
+; |dds|Add0~150                                                                                                             ; |dds|Add0~150                                                                                                             ; out0             ;
+; |dds|Add0~151                                                                                                             ; |dds|Add0~151                                                                                                             ; out0             ;
+; |dds|Add0~152                                                                                                             ; |dds|Add0~152                                                                                                             ; out0             ;
+; |dds|Add1~0                                                                                                               ; |dds|Add1~0                                                                                                               ; out0             ;
++---------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                                                                                                                                                                                 ;
++---------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                                                 ; Output Port Name                                                                                                          ; Output Port Type ;
++---------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+------------------+
+; |dds|fre_add[31]                                                                                                          ; |dds|fre_add[31]                                                                                                          ; regout           ;
+; |dds|fre_add[30]                                                                                                          ; |dds|fre_add[30]                                                                                                          ; regout           ;
+; |dds|fre_add[29]                                                                                                          ; |dds|fre_add[29]                                                                                                          ; regout           ;
+; |dds|fre_add[28]                                                                                                          ; |dds|fre_add[28]                                                                                                          ; regout           ;
+; |dds|fre_add[27]                                                                                                          ; |dds|fre_add[27]                                                                                                          ; regout           ;
+; |dds|fre_add[26]                                                                                                          ; |dds|fre_add[26]                                                                                                          ; regout           ;
+; |dds|fre_add[25]                                                                                                          ; |dds|fre_add[25]                                                                                                          ; regout           ;
+; |dds|fre_add[24]                                                                                                          ; |dds|fre_add[24]                                                                                                          ; regout           ;
+; |dds|fre_add[23]                                                                                                          ; |dds|fre_add[23]                                                                                                          ; regout           ;
+; |dds|fre_add[22]                                                                                                          ; |dds|fre_add[22]                                                                                                          ; regout           ;
+; |dds|fre_add[21]                                                                                                          ; |dds|fre_add[21]                                                                                                          ; regout           ;
+; |dds|rom_addr[13]                                                                                                         ; |dds|rom_addr[13]                                                                                                         ; regout           ;
+; |dds|rom_addr[12]                                                                                                         ; |dds|rom_addr[12]                                                                                                         ; regout           ;
+; |dds|rom_addr[11]                                                                                                         ; |dds|rom_addr[11]                                                                                                         ; regout           ;
+; |dds|rom_addr[10]                                                                                                         ; |dds|rom_addr[10]                                                                                                         ; regout           ;
+; |dds|rom_addr[9]                                                                                                          ; |dds|rom_addr[9]                                                                                                          ; regout           ;
+; |dds|rom_addr[8]                                                                                                          ; |dds|rom_addr[8]                                                                                                          ; regout           ;
+; |dds|rom_addr[7]                                                                                                          ; |dds|rom_addr[7]                                                                                                          ; regout           ;
+; |dds|rom_addr[6]                                                                                                          ; |dds|rom_addr[6]                                                                                                          ; regout           ;
+; |dds|rom_addr[5]                                                                                                          ; |dds|rom_addr[5]                                                                                                          ; regout           ;
+; |dds|rom_addr[4]                                                                                                          ; |dds|rom_addr[4]                                                                                                          ; regout           ;
+; |dds|rom_addr[3]                                                                                                          ; |dds|rom_addr[3]                                                                                                          ; regout           ;
+; |dds|rom_addr[2]                                                                                                          ; |dds|rom_addr[2]                                                                                                          ; regout           ;
+; |dds|rom_addr[1]                                                                                                          ; |dds|rom_addr[1]                                                                                                          ; regout           ;
+; |dds|rom_addr[0]                                                                                                          ; |dds|rom_addr[0]                                                                                                          ; regout           ;
+; |dds|rom_addr_reg[11]                                                                                                     ; |dds|rom_addr_reg[11]                                                                                                     ; regout           ;
+; |dds|rom_addr_reg[10]                                                                                                     ; |dds|rom_addr_reg[10]                                                                                                     ; regout           ;
+; |dds|rom_addr_reg[9]                                                                                                      ; |dds|rom_addr_reg[9]                                                                                                      ; regout           ;
+; |dds|rom_addr_reg[8]                                                                                                      ; |dds|rom_addr_reg[8]                                                                                                      ; regout           ;
+; |dds|rom_addr_reg[7]                                                                                                      ; |dds|rom_addr_reg[7]                                                                                                      ; regout           ;
+; |dds|rom_addr_reg[6]                                                                                                      ; |dds|rom_addr_reg[6]                                                                                                      ; regout           ;
+; |dds|rom_addr_reg[5]                                                                                                      ; |dds|rom_addr_reg[5]                                                                                                      ; regout           ;
+; |dds|rom_addr_reg[4]                                                                                                      ; |dds|rom_addr_reg[4]                                                                                                      ; regout           ;
+; |dds|rom_addr_reg[3]                                                                                                      ; |dds|rom_addr_reg[3]                                                                                                      ; regout           ;
+; |dds|rom_addr_reg[2]                                                                                                      ; |dds|rom_addr_reg[2]                                                                                                      ; regout           ;
+; |dds|rom_addr_reg[1]                                                                                                      ; |dds|rom_addr_reg[1]                                                                                                      ; regout           ;
+; |dds|sys_rst_n                                                                                                            ; |dds|sys_rst_n                                                                                                            ; out              ;
+; |dds|wave_select[0]                                                                                                       ; |dds|wave_select[0]                                                                                                       ; out              ;
+; |dds|wave_select[1]                                                                                                       ; |dds|wave_select[1]                                                                                                       ; out              ;
+; |dds|FREQ_CTRL[0]                                                                                                         ; |dds|FREQ_CTRL[0]                                                                                                         ; out              ;
+; |dds|FREQ_CTRL[1]                                                                                                         ; |dds|FREQ_CTRL[1]                                                                                                         ; out              ;
+; |dds|FREQ_CTRL[2]                                                                                                         ; |dds|FREQ_CTRL[2]                                                                                                         ; out              ;
+; |dds|FREQ_CTRL[3]                                                                                                         ; |dds|FREQ_CTRL[3]                                                                                                         ; out              ;
+; |dds|FREQ_CTRL[4]                                                                                                         ; |dds|FREQ_CTRL[4]                                                                                                         ; out              ;
+; |dds|FREQ_CTRL[5]                                                                                                         ; |dds|FREQ_CTRL[5]                                                                                                         ; out              ;
+; |dds|FREQ_CTRL[6]                                                                                                         ; |dds|FREQ_CTRL[6]                                                                                                         ; out              ;
+; |dds|FREQ_CTRL[7]                                                                                                         ; |dds|FREQ_CTRL[7]                                                                                                         ; out              ;
+; |dds|FREQ_CTRL[8]                                                                                                         ; |dds|FREQ_CTRL[8]                                                                                                         ; out              ;
+; |dds|FREQ_CTRL[9]                                                                                                         ; |dds|FREQ_CTRL[9]                                                                                                         ; out              ;
+; |dds|FREQ_CTRL[10]                                                                                                        ; |dds|FREQ_CTRL[10]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[11]                                                                                                        ; |dds|FREQ_CTRL[11]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[12]                                                                                                        ; |dds|FREQ_CTRL[12]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[13]                                                                                                        ; |dds|FREQ_CTRL[13]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[14]                                                                                                        ; |dds|FREQ_CTRL[14]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[15]                                                                                                        ; |dds|FREQ_CTRL[15]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[16]                                                                                                        ; |dds|FREQ_CTRL[16]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[17]                                                                                                        ; |dds|FREQ_CTRL[17]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[18]                                                                                                        ; |dds|FREQ_CTRL[18]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[19]                                                                                                        ; |dds|FREQ_CTRL[19]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[20]                                                                                                        ; |dds|FREQ_CTRL[20]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[21]                                                                                                        ; |dds|FREQ_CTRL[21]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[22]                                                                                                        ; |dds|FREQ_CTRL[22]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[23]                                                                                                        ; |dds|FREQ_CTRL[23]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[24]                                                                                                        ; |dds|FREQ_CTRL[24]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[25]                                                                                                        ; |dds|FREQ_CTRL[25]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[26]                                                                                                        ; |dds|FREQ_CTRL[26]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[27]                                                                                                        ; |dds|FREQ_CTRL[27]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[28]                                                                                                        ; |dds|FREQ_CTRL[28]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[29]                                                                                                        ; |dds|FREQ_CTRL[29]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[30]                                                                                                        ; |dds|FREQ_CTRL[30]                                                                                                        ; out              ;
+; |dds|FREQ_CTRL[31]                                                                                                        ; |dds|FREQ_CTRL[31]                                                                                                        ; out              ;
+; |dds|data_out[0]                                                                                                          ; |dds|data_out[0]                                                                                                          ; pin_out          ;
+; |dds|data_out[1]                                                                                                          ; |dds|data_out[1]                                                                                                          ; pin_out          ;
+; |dds|data_out[2]                                                                                                          ; |dds|data_out[2]                                                                                                          ; pin_out          ;
+; |dds|data_out[3]                                                                                                          ; |dds|data_out[3]                                                                                                          ; pin_out          ;
+; |dds|data_out[4]                                                                                                          ; |dds|data_out[4]                                                                                                          ; pin_out          ;
+; |dds|data_out[5]                                                                                                          ; |dds|data_out[5]                                                                                                          ; pin_out          ;
+; |dds|data_out[6]                                                                                                          ; |dds|data_out[6]                                                                                                          ; pin_out          ;
+; |dds|data_out[7]                                                                                                          ; |dds|data_out[7]                                                                                                          ; pin_out          ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a0                   ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a0                   ; portadataout0    ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a1                   ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a1                   ; portadataout0    ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a2                   ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a2                   ; portadataout0    ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a3                   ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a3                   ; portadataout0    ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a4                   ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a4                   ; portadataout0    ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a5                   ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a5                   ; portadataout0    ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a6                   ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a6                   ; portadataout0    ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a7                   ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a7                   ; portadataout0    ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a8                   ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a8                   ; portadataout0    ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a9                   ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a9                   ; portadataout0    ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a10                  ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a10                  ; portadataout0    ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a11                  ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a11                  ; portadataout0    ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a12                  ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a12                  ; portadataout0    ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a13                  ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a13                  ; portadataout0    ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a14                  ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a14                  ; portadataout0    ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a15                  ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|ram_block1a15                  ; portadataout0    ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|address_reg_a[0]               ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|address_reg_a[0]               ; regout           ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|out_address_reg_a[0]           ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|out_address_reg_a[0]           ; regout           ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[7]~0  ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[7]~0  ; out0             ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[7]~1  ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[7]~1  ; out0             ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[7]    ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[7]    ; out0             ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[6]~2  ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[6]~2  ; out0             ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[6]~3  ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[6]~3  ; out0             ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[6]    ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[6]    ; out0             ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[5]~4  ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[5]~4  ; out0             ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[5]~5  ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[5]~5  ; out0             ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[5]    ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[5]    ; out0             ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[4]~6  ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[4]~6  ; out0             ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[4]~7  ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[4]~7  ; out0             ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[4]    ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[4]    ; out0             ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[3]~8  ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[3]~8  ; out0             ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[3]~9  ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[3]~9  ; out0             ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[3]    ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[3]    ; out0             ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[2]~10 ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[2]~10 ; out0             ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[2]~11 ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[2]~11 ; out0             ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[2]    ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[2]    ; out0             ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[1]~12 ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[1]~12 ; out0             ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[1]~13 ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[1]~13 ; out0             ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[1]    ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[1]    ; out0             ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[0]~14 ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[0]~14 ; out0             ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[0]~15 ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[0]~15 ; out0             ;
+; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[0]    ; |dds|rom_wave:rom_wave_inst|altsyncram:altsyncram_component|altsyncram_1ea1:auto_generated|mux_qlb:mux2|result_node[0]    ; out0             ;
+; |dds|Add0~5                                                                                                               ; |dds|Add0~5                                                                                                               ; out0             ;
+; |dds|Add0~6                                                                                                               ; |dds|Add0~6                                                                                                               ; out0             ;
+; |dds|Add0~15                                                                                                              ; |dds|Add0~15                                                                                                              ; out0             ;
+; |dds|Add0~16                                                                                                              ; |dds|Add0~16                                                                                                              ; out0             ;
+; |dds|Add0~20                                                                                                              ; |dds|Add0~20                                                                                                              ; out0             ;
+; |dds|Add0~21                                                                                                              ; |dds|Add0~21                                                                                                              ; out0             ;
+; |dds|Add0~25                                                                                                              ; |dds|Add0~25                                                                                                              ; out0             ;
+; |dds|Add0~26                                                                                                              ; |dds|Add0~26                                                                                                              ; out0             ;
+; |dds|Add0~55                                                                                                              ; |dds|Add0~55                                                                                                              ; out0             ;
+; |dds|Add0~56                                                                                                              ; |dds|Add0~56                                                                                                              ; out0             ;
+; |dds|Add0~60                                                                                                              ; |dds|Add0~60                                                                                                              ; out0             ;
+; |dds|Add0~61                                                                                                              ; |dds|Add0~61                                                                                                              ; out0             ;
+; |dds|Add0~70                                                                                                              ; |dds|Add0~70                                                                                                              ; out0             ;
+; |dds|Add0~71                                                                                                              ; |dds|Add0~71                                                                                                              ; out0             ;
+; |dds|Add0~80                                                                                                              ; |dds|Add0~80                                                                                                              ; out0             ;
+; |dds|Add0~81                                                                                                              ; |dds|Add0~81                                                                                                              ; out0             ;
+; |dds|Add0~85                                                                                                              ; |dds|Add0~85                                                                                                              ; out0             ;
+; |dds|Add0~86                                                                                                              ; |dds|Add0~86                                                                                                              ; out0             ;
+; |dds|Add0~90                                                                                                              ; |dds|Add0~90                                                                                                              ; out0             ;
+; |dds|Add0~91                                                                                                              ; |dds|Add0~91                                                                                                              ; out0             ;
+; |dds|Add0~95                                                                                                              ; |dds|Add0~95                                                                                                              ; out0             ;
+; |dds|Add0~96                                                                                                              ; |dds|Add0~96                                                                                                              ; out0             ;
+; |dds|Add0~100                                                                                                             ; |dds|Add0~100                                                                                                             ; out0             ;
+; |dds|Add0~101                                                                                                             ; |dds|Add0~101                                                                                                             ; out0             ;
+; |dds|Add0~105                                                                                                             ; |dds|Add0~105                                                                                                             ; out0             ;
+; |dds|Add0~106                                                                                                             ; |dds|Add0~106                                                                                                             ; out0             ;
+; |dds|Add0~108                                                                                                             ; |dds|Add0~108                                                                                                             ; out0             ;
+; |dds|Add0~109                                                                                                             ; |dds|Add0~109                                                                                                             ; out0             ;
+; |dds|Add0~110                                                                                                             ; |dds|Add0~110                                                                                                             ; out0             ;
+; |dds|Add0~111                                                                                                             ; |dds|Add0~111                                                                                                             ; out0             ;
+; |dds|Add0~112                                                                                                             ; |dds|Add0~112                                                                                                             ; out0             ;
+; |dds|Add0~113                                                                                                             ; |dds|Add0~113                                                                                                             ; out0             ;
+; |dds|Add0~114                                                                                                             ; |dds|Add0~114                                                                                                             ; out0             ;
+; |dds|Add0~115                                                                                                             ; |dds|Add0~115                                                                                                             ; out0             ;
+; |dds|Add0~116                                                                                                             ; |dds|Add0~116                                                                                                             ; out0             ;
+; |dds|Add0~117                                                                                                             ; |dds|Add0~117                                                                                                             ; out0             ;
+; |dds|Add0~118                                                                                                             ; |dds|Add0~118                                                                                                             ; out0             ;
+; |dds|Add0~119                                                                                                             ; |dds|Add0~119                                                                                                             ; out0             ;
+; |dds|Add0~120                                                                                                             ; |dds|Add0~120                                                                                                             ; out0             ;
+; |dds|Add0~121                                                                                                             ; |dds|Add0~121                                                                                                             ; out0             ;
+; |dds|Add0~122                                                                                                             ; |dds|Add0~122                                                                                                             ; out0             ;
+; |dds|Add0~123                                                                                                             ; |dds|Add0~123                                                                                                             ; out0             ;
+; |dds|Add0~124                                                                                                             ; |dds|Add0~124                                                                                                             ; out0             ;
+; |dds|Add0~125                                                                                                             ; |dds|Add0~125                                                                                                             ; out0             ;
+; |dds|Add0~126                                                                                                             ; |dds|Add0~126                                                                                                             ; out0             ;
+; |dds|Add0~127                                                                                                             ; |dds|Add0~127                                                                                                             ; out0             ;
+; |dds|Add0~128                                                                                                             ; |dds|Add0~128                                                                                                             ; out0             ;
+; |dds|Add0~129                                                                                                             ; |dds|Add0~129                                                                                                             ; out0             ;
+; |dds|Add0~130                                                                                                             ; |dds|Add0~130                                                                                                             ; out0             ;
+; |dds|Add0~131                                                                                                             ; |dds|Add0~131                                                                                                             ; out0             ;
+; |dds|Add0~132                                                                                                             ; |dds|Add0~132                                                                                                             ; out0             ;
+; |dds|Add0~133                                                                                                             ; |dds|Add0~133                                                                                                             ; out0             ;
+; |dds|Add0~134                                                                                                             ; |dds|Add0~134                                                                                                             ; out0             ;
+; |dds|Add0~135                                                                                                             ; |dds|Add0~135                                                                                                             ; out0             ;
+; |dds|Add0~136                                                                                                             ; |dds|Add0~136                                                                                                             ; out0             ;
+; |dds|Add0~137                                                                                                             ; |dds|Add0~137                                                                                                             ; out0             ;
+; |dds|Add0~138                                                                                                             ; |dds|Add0~138                                                                                                             ; out0             ;
+; |dds|Add0~139                                                                                                             ; |dds|Add0~139                                                                                                             ; out0             ;
+; |dds|Add0~140                                                                                                             ; |dds|Add0~140                                                                                                             ; out0             ;
+; |dds|Add0~141                                                                                                             ; |dds|Add0~141                                                                                                             ; out0             ;
+; |dds|Add0~142                                                                                                             ; |dds|Add0~142                                                                                                             ; out0             ;
+; |dds|Add0~143                                                                                                             ; |dds|Add0~143                                                                                                             ; out0             ;
+; |dds|Add0~144                                                                                                             ; |dds|Add0~144                                                                                                             ; out0             ;
+; |dds|Add0~145                                                                                                             ; |dds|Add0~145                                                                                                             ; out0             ;
+; |dds|Add0~146                                                                                                             ; |dds|Add0~146                                                                                                             ; out0             ;
+; |dds|Add0~147                                                                                                             ; |dds|Add0~147                                                                                                             ; out0             ;
+; |dds|Add0~148                                                                                                             ; |dds|Add0~148                                                                                                             ; out0             ;
+; |dds|Add0~149                                                                                                             ; |dds|Add0~149                                                                                                             ; out0             ;
+; |dds|Add0~150                                                                                                             ; |dds|Add0~150                                                                                                             ; out0             ;
+; |dds|Add0~151                                                                                                             ; |dds|Add0~151                                                                                                             ; out0             ;
+; |dds|Add0~152                                                                                                             ; |dds|Add0~152                                                                                                             ; out0             ;
+; |dds|Add1~0                                                                                                               ; |dds|Add1~0                                                                                                               ; out0             ;
++---------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Simulator
+    Info: Version 13.0.0 Build 156 04/24/2013 SJ Full Version
+    Info: Processing started: Wed Jul 21 00:01:09 2021
+Info: Command: quartus_sim --simulation_results_format=VWF dds -c dds_qsim
+Info (324025): Using vector source file "C:/Users/lenovo/Desktop/work/exp11/sim/Waveform.vwf"
+Info (310003): Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info (310004): Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info (310002): Simulation partitioned into 1 sub-simulations
+Info (328053): Simulation coverage is      35.23 %
+Info (328052): Number of transitions in simulation is 4309
+Info (324045): Vector file dds_qsim.sim.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II 64-Bit Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4458 megabytes
+    Info: Processing ended: Wed Jul 21 00:01:10 2021
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
